@@ -1,0 +1,5 @@
+num1 = int (input('digite um número'))
+triplo = (num1*3)
+dobro = (num1*2)
+raiz = (num1**(1/2))
+print('o triplo é {} o dobro é {} e a raiz quadrada é {:.2f}'.format(triplo, dobro, raiz))
