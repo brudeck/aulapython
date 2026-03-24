@@ -5,6 +5,7 @@
 # print('a raiz de {} é igual a {}'.format(num, math.floor (raiz)))
 
 #Funcionalidades especificas 
-from math import sqrt, floor
+from math import sqrt, ceil, floor
 num=int(input('digite um número'))
 raiz=sqrt(num)
+print('a raiz de {} é igual a {}'.format(num, ceil (raiz)))
