@@ -2,4 +2,9 @@ numero = int(input('digite um número inteiro'))
 if numero % 2==0:
     print('o número {} é par'.format(numero))
 else:
+<<<<<<< Updated upstream
     print('o numero {} é impar'.format(numero))
+=======
+    ('o numero {} é impar'.format(numero))
+    
+>>>>>>> Stashed changes
