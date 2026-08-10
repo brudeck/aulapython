@@ -1,17 +1,14 @@
-contador = 0
-produto = 1
+import random
 
-while True:
-    numero = int(input("Digite um número inteiro: "))
+numero_computador = random.randint(0, 9)
 
-    if numero == 757:
-       
-        contador += 1
-        produto *= 757
-        break
-        
-    contador += 1
-    produto *= numero
+print("Tente adivinhar o número que eu pensei!")
 
-print(f"\nQuantidade de números digitados: {contador}")
-print(f"Resultado da multiplicação: {produto}")
+tentativa_usuario = int(input("Digite um número entre 0 e 9: "))
+
+if tentativa_usuario == numero_computador:
+    print(f"Você acertou! Eu pensei no número {numero_computador}.")
+    print("O computador PERDEU!")
+else:
+    print(f"Você errou! Eu pensei no número {numero_computador}.")
+    print("O computador GANHOU!")
